@@ -1,0 +1,111 @@
+
+#header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 200%;
+  }
+
+#headermain{
+    width: 100%;
+    height: 100vh;
+}
+
+.mt-sm-25 
+.mt-md-25 
+.mt-lg-25{
+    margin-top: 10vh;
+}
+
+.col_name{
+    color: blueviolet;
+}
+
+.card-img-body{
+    width : 100%;
+    height: 100%;
+}
+
+.card-img{
+
+    height:100%;
+    width: 30vh;
+
+}
+
+.fletter{
+
+    text-indent: 50px;
+    text-align: left;
+    line-height: 1.9rem;
+}
+
+.fletter::first-letter{
+        font-size: 200%;
+        color: rgb(28, 2, 2);
+}
+
+.bg-cream{
+
+    background-color: rgb(246, 246, 224);
+    border: none;
+    border-radius: 50px;
+}
+
+.vgr-cards{
+    border: none;
+    outline: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+.card{
+    border: none;
+
+}
+
+.hedingModifi{
+  font-size: 5vh;
+  font-weight: 600;
+  background-image: linear-gradient(to left, blueviolet, black);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.btn_color
+{
+    background-color: #fff;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    padding: 10px 30px;
+    font-size: large;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.btn_color:hover
+{
+    background-color: blueviolet;
+    color: #fff;
+    padding: 12px 32px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 1s ease;
+}
+
+.home_image{
+    animation: updown 1s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes updown {
+
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+    
+}

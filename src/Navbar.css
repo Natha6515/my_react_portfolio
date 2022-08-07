@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container_fluide{
+    margin-top: 0%;
+}
+
+.navbar {
+    background-color: #fff;
+}
+
+.navbar-brand{
+
+    font-size: 1.9rem;
+    color:blueviolet
+}
+
+.nav_link {
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    color: blueviolet;
+}
+
+.nav_link:hover{
+    color: blueviolet;
+}
+
+.menu_active{
+    
+    font-weight: bold;
+    border-bottom: 1px solid blueviolet;
+}
